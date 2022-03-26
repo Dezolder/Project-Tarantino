@@ -1,3 +1,6 @@
 # Project-Tarantino
+## Базовый курс по ***HTML CSS***:
 
-https://dezolder.github.io/Project-Tarantino/
+___
+
+[Официальный сайт моего кота] (https://dezolder.github.io/Project-Tarantino/ "Click to Go")
