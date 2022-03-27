@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-.box1{
+.box1 {
     border-color: black;
 }
 
@@ -24,12 +24,15 @@ html {
     font-family: sans-serif;
 }
 
+
+
 .cat {
     color: rgb(255, 255, 255);
     background-color: black;
     padding: 0%;
     margin: 0px;
 }
+
 table {
     border-collapse: collapse;
     border: 2px solid rgb(200, 200, 200);
@@ -126,3 +129,92 @@ h3 {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+
+.list {
+    background: #000000;
+    padding: 0;
+    margin: 0;
+    /* list-style: none; */
+    padding-left: 10px;
+}
+
+.list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    border-top: 1px solid #3a4062;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+nav {
+    /* width: 500px; */
+    margin: 20px;
+    /* align-content: center; */
+}
+
+nav ol {
+    color: #3a4062;
+}
+
+nav p {
+    /* color: aqua; */
+    font-size: 0.9rem;
+    font-style: italic;
+    padding: 10px;
+}
+
+.list li a {
+    color: #3a4062;
+    text-decoration: none;
+}
+
+.list li a:hover {
+    color: white;
+}
+
+.list li a:active {
+    color: #bdc2d6;
+}
+
+.list li a:visited {
+    text-decoration: line-through;
+    /* color: aqua; */
+}
+
+.list li:hover {
+    background-color: #172252;
+}
+
+
+.btn {
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    background-color: #2f439b;
+    /* bleed: 30px #red; */
+
+}
+
+.btn:hover {
+    background-color: aquamarine;
+    box-shadow: 0 0 15px aquamarine;
+    color: darkcyan;
+    transition: 200ms;
+}
+
+/* .deco {
+    width: 19%;
+    height: 20px;
+    /* margin: auto 10px ; */
+    background: #3a4062;
+    display: inline-block;
+    border: 2px solid #3a4062;
+    box-sizing: content-box;
+}
+
+.foot {
+    width: 300px;
+} */
