@@ -7,11 +7,13 @@
     top: 0;
     z-index: 2;
     margin-bottom: 0;
+    /* box-shadow: 0 0 15px aquamarine; */
+
     /* border: 15px solid blueviolet; */
 
     /* border-color: black; */
 }
-.box1 img {margin-bottom: 0;}
+/* .box1 img {margin-bottom: 0;} */
 
 .box2 {
     margin-top: 250px;
@@ -40,9 +42,11 @@ html {
     color: rgb(255, 255, 255);
     background-color: black;
     padding: 0%;
-    margin: -3px auto;
+    margin: -4px auto;
     width: 300px;
     text-align: center;
+    box-shadow: 0 0 100px rgb(12, 206, 190);
+
 }
 
 table {
